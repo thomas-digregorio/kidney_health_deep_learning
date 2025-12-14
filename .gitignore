@@ -1,0 +1,21 @@
+# Secrets
+.env
+.ipynb_checkpoints/
+__pycache__/
+
+# Data
+data/
+*.parquet
+*.csv
+
+# System
+.DS_Store
+
+# WandB
+wandb/
+
+# Logs
+*.log
+
+# Models
+*.json

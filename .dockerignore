@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Data (Too large)
+data/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Artifacts
+wandb/
+*.parquet
+*.csv
+model_*.json

@@ -1,0 +1,27 @@
+name: kidney-health
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - cudf=24.10
+  - cuml=24.10
+  - xgboost
+  - wandb
+  - datashader
+  - holoviews
+  - hvplot
+  - panel
+  - bokeh
+  - cupy
+  - matplotlib
+  - seaborn
+  - shap
+  - jupyterlab
+  - python-dotenv
+  - kaggle
+  - kagglehub
+  - ipykernel
+  - pip
