@@ -18,8 +18,8 @@ PROCESSED_DIR = Path("data/processed")
 def validate_os() -> None:
     """Ensure script is running in a supported environment (WSL2/Linux)."""
     if sys.platform.startswith("win"):
-        print("\n🛑 CRITICAL ERROR: RAPIDS (cuDF) is NOT supported on native Windows.")
-        print("👉 You MUST run this script inside WSL2 (Windows Subsystem for Linux).")
+        print("\n CRITICAL ERROR: RAPIDS (cuDF) is NOT supported on native Windows.")
+        print(" You MUST run this script inside WSL2 (Windows Subsystem for Linux).")
         print("   See WSL_SETUP.md for instructions.\n")
         sys.exit(1)
 
