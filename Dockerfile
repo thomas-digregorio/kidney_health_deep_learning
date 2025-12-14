@@ -30,4 +30,4 @@ COPY --chown=mambauser:mambauser src/ /app/src/
 COPY --chown=mambauser:mambauser .env /app/.env
 
 # Default command
-CMD ["python", "src/train.py"]
+CMD ["python", "src/train_ckd.py"]
